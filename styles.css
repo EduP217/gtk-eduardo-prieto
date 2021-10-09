@@ -1,0 +1,113 @@
+body{
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  /*color: fuchsia;*/
+}
+
+.container {
+  padding: 0 10%;
+}
+
+.card {
+  box-shadow: 0 0 10px 0px #cacaca;  
+}
+
+.profile-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.contact-info {
+  display: flex;
+  word-break: break-all;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+
+.contact-info>div {
+  padding: 10px;
+}
+
+.contact-info .profile {
+  align-self: auto;
+}
+
+.personal-info {
+  
+}
+
+.personal-info p {
+  padding: 10px;
+}
+
+.is-title {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.is-subtitle {
+    font-size: 1.75rem;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.divisor {
+  border: 1px solid #eaeaea;
+  height: auto;
+  width: initial;
+  margin: 15px 0;
+}
+
+.logo-img {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.banner-img {
+  /*width: 100%;
+  height: auto;*/
+}
+
+.home-image {
+
+}
+
+.right-img {
+
+}
+
+.left-img {
+  
+}
+
+@media(max-width: 725px){
+  .contact-info {
+    justify-content: center;
+  }
+  
+  .contact-info>div {
+    padding: 0;
+  }
+}
+
+@media(max-width: 325px){
+  .profile-img{
+    width: 150px;
+    height: 150px;
+  }
+  
+  .is-title {
+    font-size: 1.75rem;
+    padding: 10px 0;
+  }
+
+  .is-subtitle {
+      font-size: 1rem;
+  }
+}
