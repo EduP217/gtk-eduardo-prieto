@@ -44,14 +44,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #content {    
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
   background-color: #fff;
-  padding: 1em;
 }
 
-header {
-}
+header {}
 
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
